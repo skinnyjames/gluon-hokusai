@@ -1,0 +1,3271 @@
+{
+  "reflection": [
+    {
+      "type": "java.lang.ClassLoader",
+      "fields": [
+        {
+          "name": "classLoaderValueMap"
+        }
+      ]
+    },
+    {
+      "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "org.graalvm.polyglot.io.IOHelper",
+      "fields": [
+        {
+          "name": "ACCESS"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.polyglot.management.Management",
+      "fields": [
+        {
+          "name": "ACCESS"
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.shadowed.org.jcodings.provider.JCodingsProviderImpl"
+    },
+    {
+      "type": "org.truffleruby.RubyLanguageProvider"
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$AddToMarkListFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$CExtToWrapperNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$CallWithCExtLockAndFrameAndUnwrapNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$CallWithCExtLockAndFrameNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$GCGuardNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$IsNativeObjectFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$MarkObjectOnCallExitFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$NewMarkerListFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$RbConstGetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$RbConstSetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$SetMarkListFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$StartNewHandleBlockNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$StringPointerToNativeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$Sym2IDFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$TemporaryNativeStringNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$ToNativeFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$UnwrapValueNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$UnwrapperFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$UnwrapperIDFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$WrapValueNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.cext.CExtNodesFactory$WrapperFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.MainNodesFactory$MainUsingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.MainNodesFactory$PrivateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.MainNodesFactory$PublicNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.TruffleSystemNodesFactory$GetTruffleWorkingDirNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.TruffleSystemNodesFactory$HostOSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.TruffleSystemNodesFactory$InitEnvVarsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$CatchNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$InitStackOverflowClassesEagerlyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$VMGetConfigItemNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$VMGetConfigSectionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$VMJavaVersionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.VMPrimitiveNodesFactory$VMWatchSignalNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$AddNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$AppendNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$ArrayCanContainObjectNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$ArrayPackPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$ConcatNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$EachNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$EachWithIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$EmptyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$HashNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$IncludeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$IndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$InitializeCopyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$InitializeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$InjectNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$IsStoreNativeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$MapInPlaceNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$MapNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$MarkNativeStoreNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$MulNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$PushNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$SelectNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$SizeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$StoreAddressNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.ArrayNodesFactory$StoreToNativeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.array.library.ArrayStoreLibrary"
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$BasicObjectEqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$InitializeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$InstanceEvalNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$NotEqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.basicobject.BasicObjectNodesFactory$SendNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.binding.BindingNodesFactory$CreateEmptyBindingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.binding.BindingNodesFactory$LocalVariablesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$AreStringsCompatibleNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$AsciiCompatibleNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$CheckStringEncodingPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$EachAliasNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$GetDefaultEncodingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$GetEncodingIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$IsUnicodeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$ListNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.encoding.EncodingNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.fiber.FiberNodesFactory$FiberCGlobalVariablesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.fiber.FiberNodesFactory$FiberGetCatchTagsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.fiber.FiberNodesFactory$FiberGetErrorInfoNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.fiber.FiberNodesFactory$FiberGetExceptionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.fiber.FiberNodesFactory$FiberSetErrorInfoNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$ClearNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$DefaultProcNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$DefaultValueNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$GetIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$GetOrUndefinedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$InitializeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$MapNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$SetDefaultValueNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.HashNodesFactory$SetIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.hash.library.HashStoreLibrary"
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$AnyInstanceVariableNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$BindingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$BlockGivenNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$CanonicalizePathNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$CaseCompareNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$CloneNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$DupNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$EvalPrepareArgsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$FindFileNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$GetCallerPathNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$HashNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$InitializeCopyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$InitializeDupNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$InstanceVariableSetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$KernelFreezeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$KernelFrozenNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$KernelLocalVariablesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$KernelMethodsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$LoadFeatureNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$MethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$ProcNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$PublicMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$PublicSendNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$RespondToMissingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$RespondToNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$SingletonClassMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$WarnBlockSupersedesDefaultValueArgumentNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.KernelNodesFactory$WarnGivenBlockNotUsedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$DefineHookedVariableInnerNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$GetCallerSpecialVariableStorageFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$GetCallerSpecialVariableStorageIfFastFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$GetLastIOFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$GetProcSpecialVariableStorageFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$GetRegexpMatchFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$ReadGlobalVariableNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$SetLastIOFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$SetRegexpMatchFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$ShareSpecialVariableStorageFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.kernel.TruffleKernelNodesFactory$WriteGlobalVariableNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.klass.ClassNodesFactory$InheritedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.klass.ClassNodesFactory$NewClassNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.klass.ClassNodesFactory$NewNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.method.MethodNodesFactory$ArityNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.method.MethodNodesFactory$CallNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.method.MethodNodesFactory$MethodUnimplementNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.method.MethodNodesFactory$UnbindNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.method.UnboundMethodNodesFactory$BindNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AliasMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AppendFeaturesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AttrAccessorNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AttrNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AttrReaderNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AttrWriterNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$AutoloadNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$CallerNestingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ClassEvalNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ConstDefinedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ConstGetNodePrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ConstSetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ContainsInstanceNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$DefineMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$DeprecateConstantNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ExtendObjectNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ExtendedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$IncludedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$InitializeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$InstanceMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$IsSubclassOfNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$MethodDefinedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ModuleFunctionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ModuleUsingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$PrependFeaturesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$PrivateClassMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$PrivateConstantNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$PrivateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ProtectedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$PublicNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.module.ModuleNodesFactory$UndefMethodNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.mutex.MutexNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.mutex.MutexNodesFactory$SynchronizeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.FloatNodesFactory$EqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.FloatNodesFactory$ToFNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$AbsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$ComplementNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$EqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$FixnumFitsIntoIntNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$IntegerLowerNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$LeftShiftNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$ModPowNodePrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$PowNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.numeric.IntegerNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.objectspace.ObjectSpaceNodesFactory$DefineDataObjectFinalizerNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.proc.ProcNodesFactory$CallNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.proc.ProcNodesFactory$ProcCreateSameArityNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.proc.ProcNodesFactory$ProcNewNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.proc.ProcNodesFactory$ProcSpecifyArityNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.proc.ProcNodesFactory$SingleBlockArgNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.range.RangeNodesFactory$IntegerMapNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.range.RangeNodesFactory$NormalizedStartLengthPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.regexp.MatchDataNodesFactory$ByteEndNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.regexp.RegexpNodesFactory$RegexpCompileNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.regexp.RegexpNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.regexp.TruffleRegexpNodesFactory$RegexpCheckEncodingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$ASCIIOnlyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$AddNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$CompareNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$EmptyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$EncodingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$EndWithNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$EqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$ForceEncodingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$GetIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$InitializeCopyNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$InternNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$IsInternedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$ScrubNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$SizeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StartWithNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringAllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringAwkSplitPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringByteIndexFromCharIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringByteSubstringPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringCharacterIndexNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringConcatNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringConcatOneNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringDupAsStringInstanceNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringFindCharacterNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringIndexPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringReplaceNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringRindexPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringSubstringPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringToInumPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringToNullTerminatedByteArrayNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$StringUpcaseBangPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$ToSymNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.string.StringNodesFactory$UnpackPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.ByteArrayNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.ByteArrayNodesFactory$InitializeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOEnsureOpenPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOFDNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOSetFDNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOThreadBufferAllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOThreadBufferFreeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.IONodesFactory$IOWritePolyglotNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$AsBooleanNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$CheckMutableStringNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$CheckRealNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ClassPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$EqualPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$FreezePrimitiveFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsAPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsBooleanOrNilNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsFalseFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsNilNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsTrueFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$IsUndefinedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$MetaClassPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectHiddenVarCreateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectHiddenVarDefinedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectHiddenVarGetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectHiddenVarSetNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectIVarGetPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectIVarSetPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$ObjectToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$RbNum2IntPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$RbNum2LongPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$RbToIntNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$RespondToPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.support.TypeNodesFactory$TypeCheckFrozenNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.symbol.SymbolNodesFactory$EqualNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.symbol.SymbolNodesFactory$ToProcNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.symbol.SymbolNodesFactory$ToSNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$CurrentNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$ThreadDetectRecursionSingleNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$ThreadGetReturnCodeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$ThreadRecursiveObjectsPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$ThreadRunBlockingSystemCallNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.thread.ThreadNodesFactory$ThreadSetGroupPrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.core.time.TimeNodesFactory$TimeStrftimePrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.TruffleGraalNodesFactory$AlwaysSplitNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.TruffleGraalNodesFactory$CopyCapturedLocalsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.TruffleGraalNodesFactory$NeverSplitNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.TruffleRubyNodesFactory$NativeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.TruffleRubyNodesFactory$SynchronizedNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$AllocateNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerAddressNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerFindTypeSizePrimitiveNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerReadBytesNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerReadStringToNullNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerSetAddressNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.extra.ffi.PointerNodesFactory$PointerSizeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$AsPointerNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$ExceptionMessageNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$ExecuteNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$ForeignStringToRubyStringNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$HasExceptionMessageNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$InteropEvalNFINodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$InteropExecuteNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$InteropIsForeignNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$InteropIsNullNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$InteropReadMemberNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$IsNullNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.InteropNodesFactory$PointerNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.interop.PolyglotNodesFactory$InnerContextEvalNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$ExtraLoadPathsNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$GetOptionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$IsPreinitializingNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$OriginalArgvNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$PrintTimeMetricNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$ReadABIVersionNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.language.TruffleBootNodesFactory$RubyHomeNodeFactory",
+      "methods": [
+        {
+          "name": "getInstance",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.truffleruby.resources.RubyHomeResourceProvider"
+    },
+    {
+      "type": "sun.misc.Unsafe",
+      "fields": [
+        {
+          "name": "theUnsafe"
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG$NonBlocking",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/graalvm/org.graalvm.truffle/version"
+    },
+    {
+      "glob": "META-INF/resources/engine/libtruffleattach/darwin/amd64/sha256"
+    },
+    {
+      "glob": "META-INF/resources/llvm/native-lib/darwin/amd64/sha256"
+    },
+    {
+      "glob": "META-INF/resources/llvm/native/darwin/amd64/lib/@rpath/libgraalvm-llvm.1.dylib"
+    },
+    {
+      "glob": "META-INF/resources/llvm/native/darwin/amd64/lib/libgraalvm-llvm.1.dylib"
+    },
+    {
+      "glob": "META-INF/resources/llvm/native/darwin/amd64/lib/libsulong.dylib"
+    },
+    {
+      "glob": "META-INF/resources/nfi-native/libnfi/darwin/amd64/sha256"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.TruffleRuntimeAccess"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.impl.TruffleLocator"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.instrumentation.provider.TruffleInstrumentProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.library.provider.DefaultExportProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.object.LayoutFactory"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.provider.InternalResourceProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.provider.TruffleLanguageProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.api.strings.provider.JCodingsProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.llvm.runtime.config.ConfigurationFactory"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.llvm.spi.internal.LLVMResourceProvider"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.EngineCacheSupport"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.FloodControlHandler"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.LoopNodeFactory"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.TruffleTypes"
+    },
+    {
+      "glob": "META-INF/services/com.oracle.truffle.runtime.jfr.EventFactory$Provider"
+    },
+    {
+      "glob": "META-INF/services/org.graalvm.polyglot.impl.AbstractPolyglotImpl"
+    },
+    {
+      "glob": "truffleruby/core/argf.rb"
+    },
+    {
+      "glob": "truffleruby/core/array.rb"
+    },
+    {
+      "glob": "truffleruby/core/basic_object.rb"
+    },
+    {
+      "glob": "truffleruby/core/binding.rb"
+    },
+    {
+      "glob": "truffleruby/core/class.rb"
+    },
+    {
+      "glob": "truffleruby/core/comparable.rb"
+    },
+    {
+      "glob": "truffleruby/core/complex.rb"
+    },
+    {
+      "glob": "truffleruby/core/complexifier.rb"
+    },
+    {
+      "glob": "truffleruby/core/configuration.rb"
+    },
+    {
+      "glob": "truffleruby/core/data.rb"
+    },
+    {
+      "glob": "truffleruby/core/dir.rb"
+    },
+    {
+      "glob": "truffleruby/core/dir_glob.rb"
+    },
+    {
+      "glob": "truffleruby/core/encoding.rb"
+    },
+    {
+      "glob": "truffleruby/core/enumerable.rb"
+    },
+    {
+      "glob": "truffleruby/core/enumerator.rb"
+    },
+    {
+      "glob": "truffleruby/core/env.rb"
+    },
+    {
+      "glob": "truffleruby/core/errno.rb"
+    },
+    {
+      "glob": "truffleruby/core/exception.rb"
+    },
+    {
+      "glob": "truffleruby/core/false.rb"
+    },
+    {
+      "glob": "truffleruby/core/fiber.rb"
+    },
+    {
+      "glob": "truffleruby/core/file.rb"
+    },
+    {
+      "glob": "truffleruby/core/file_test.rb"
+    },
+    {
+      "glob": "truffleruby/core/float.rb"
+    },
+    {
+      "glob": "truffleruby/core/gc.rb"
+    },
+    {
+      "glob": "truffleruby/core/hash.rb"
+    },
+    {
+      "glob": "truffleruby/core/integer.rb"
+    },
+    {
+      "glob": "truffleruby/core/io.rb"
+    },
+    {
+      "glob": "truffleruby/core/kernel.rb"
+    },
+    {
+      "glob": "truffleruby/core/lazy_rubygems.rb"
+    },
+    {
+      "glob": "truffleruby/core/main.rb"
+    },
+    {
+      "glob": "truffleruby/core/marshal.rb"
+    },
+    {
+      "glob": "truffleruby/core/match_data.rb"
+    },
+    {
+      "glob": "truffleruby/core/math.rb"
+    },
+    {
+      "glob": "truffleruby/core/method.rb"
+    },
+    {
+      "glob": "truffleruby/core/module.rb"
+    },
+    {
+      "glob": "truffleruby/core/mutex.rb"
+    },
+    {
+      "glob": "truffleruby/core/nil.rb"
+    },
+    {
+      "glob": "truffleruby/core/numeric.rb"
+    },
+    {
+      "glob": "truffleruby/core/object_space.rb"
+    },
+    {
+      "glob": "truffleruby/core/posix.rb"
+    },
+    {
+      "glob": "truffleruby/core/post.rb"
+    },
+    {
+      "glob": "truffleruby/core/pre.rb"
+    },
+    {
+      "glob": "truffleruby/core/proc.rb"
+    },
+    {
+      "glob": "truffleruby/core/process.rb"
+    },
+    {
+      "glob": "truffleruby/core/random.rb"
+    },
+    {
+      "glob": "truffleruby/core/range.rb"
+    },
+    {
+      "glob": "truffleruby/core/rational.rb"
+    },
+    {
+      "glob": "truffleruby/core/rationalizer.rb"
+    },
+    {
+      "glob": "truffleruby/core/refinement.rb"
+    },
+    {
+      "glob": "truffleruby/core/regexp.rb"
+    },
+    {
+      "glob": "truffleruby/core/signal.rb"
+    },
+    {
+      "glob": "truffleruby/core/splitter.rb"
+    },
+    {
+      "glob": "truffleruby/core/stat.rb"
+    },
+    {
+      "glob": "truffleruby/core/string.rb"
+    },
+    {
+      "glob": "truffleruby/core/struct.rb"
+    },
+    {
+      "glob": "truffleruby/core/symbol.rb"
+    },
+    {
+      "glob": "truffleruby/core/thread.rb"
+    },
+    {
+      "glob": "truffleruby/core/throw_catch.rb"
+    },
+    {
+      "glob": "truffleruby/core/time.rb"
+    },
+    {
+      "glob": "truffleruby/core/tms.rb"
+    },
+    {
+      "glob": "truffleruby/core/tracepoint.rb"
+    },
+    {
+      "glob": "truffleruby/core/transcoding.rb"
+    },
+    {
+      "glob": "truffleruby/core/true.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/backward.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/boot.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/complex_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/concurrent_map.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/ctype.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/debug.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/diggable.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/dir_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/encoding_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/enumerable_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/enumerator_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/exception_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/feature_loader.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/ffi/pointer.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/ffi/pointer_access.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/ffi/pointer_extra.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/file_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/float_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/gem_util.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/hash_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/integer_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/internal.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/interop.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/interop_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/io_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/kernel_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/method_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/numeric_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/platform.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/polyglot.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/polyglot_methods.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/proc_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/process_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/queue_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/random_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/range_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/regexp_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/stat_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/string_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/thread_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/time_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/truffleruby.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/versioned_array.rb"
+    },
+    {
+      "glob": "truffleruby/core/truffle/warning_operations.rb"
+    },
+    {
+      "glob": "truffleruby/core/type.rb"
+    },
+    {
+      "glob": "truffleruby/core/unbound_method.rb"
+    },
+    {
+      "glob": "truffleruby/core/warning.rb"
+    },
+    {
+      "glob": "truffleruby/core/weakmap.rb"
+    },
+    {
+      "glob": "truffleruby/post-boot/post-boot.rb"
+    },
+    {
+      "module": "jdk.jfr",
+      "glob": "jdk/jfr/internal/types/metadata.bin"
+    },
+    {
+      "module": "org.graalvm.polyglot",
+      "glob": "META-INF/graalvm/org.graalvm.polyglot/version"
+    }
+  ],
+  "bundles": [],
+  "jni": [
+    {
+      "type": "java.lang.Class",
+      "methods": [
+        {
+          "name": "getClassLoader",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ClassLoader",
+      "methods": [
+        {
+          "name": "loadClass",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jdk.internal.loader.ClassLoaders$AppClassLoader"
+    }
+  ]
+}
