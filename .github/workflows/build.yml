@@ -18,6 +18,8 @@ jobs:
         # set GITHUB_TOKEN to avoid exceeding GitHub's API rate limit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          graalvm: '22.1.0.1-Final'
 
       # Install extra requirements on top of ubuntu-latest
       - name: Install libraries
